@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0b5edf8b4133f654b8f496abed867f95
+labels:
+- Detail
+- Flower
+- Terrain
+- Toon
+- Vegetation
+- Wind
+NativeFormatImporter:
+  userData: 

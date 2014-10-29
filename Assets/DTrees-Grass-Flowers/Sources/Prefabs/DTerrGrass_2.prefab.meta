@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 19425cc829f39394aacd73311c4939e7
+labels:
+- Detail
+- Terrain
+- Toon
+- Vegetation
+- Wind
+- Glass
+NativeFormatImporter:
+  userData: 
