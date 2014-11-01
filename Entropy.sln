@@ -11,6 +11,8 @@ Project("{15FC3950-B7C0-8C0B-533F-05A119795393}") = "Entropy", "Assembly-UnitySc
 EndProject
 Project("{15FC3950-B7C0-8C0B-533F-05A119795393}") = "Entropy", "Assembly-UnityScript.unityproj", "{E65EC984-0E57-A710-41B6-F2CE024E1014}"
 EndProject
+Project("{15FC3950-B7C0-8C0B-533F-05A119795393}") = "Entropy", "Assembly-UnityScript-Editor.unityproj", "{619F027C-2E42-8771-A963-0B279A019823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,11 +39,15 @@ Global
 		{E65EC984-0E57-A710-41B6-F2CE024E1014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65EC984-0E57-A710-41B6-F2CE024E1014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65EC984-0E57-A710-41B6-F2CE024E1014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619F027C-2E42-8771-A963-0B279A019823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619F027C-2E42-8771-A963-0B279A019823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619F027C-2E42-8771-A963-0B279A019823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619F027C-2E42-8771-A963-0B279A019823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																					GlobalSection(MonoDevelopProperties) = preSolution
+																																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
