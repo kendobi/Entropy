@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: c4e292793fe0d4038a16703214278d63
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: Box004
+    100008: Box005
+    100010: Box006
+    100012: Box007
+    100014: Box008
+    100016: Box009
+    100018: Box010
+    100020: Box011
+    100022: Box012
+    100024: Cylinder001
+    100026: floor
+    100028: floor001
+    100030: Glow
+    100032: Glow001
+    100034: //RootNode
+    100036: Object001
+    100038: Object002
+    100040: Object003
+    100042: Plane 1
+    100044: Plane 2
+    100046: Plane 4
+    100048: Plane 5
+    100050: Plane001
+    100052: Plane002
+    100054: Plane003
+    100056: Plane004
+    100058: Plane005
+    100060: Plane006
+    100062: Plane008
+    100064: Plane009
+    100066: Plane010
+    100068: Plane011
+    100070: Plane017
+    100072: Plane018
+    100074: Plane019
+    100076: Plane3
+    100078: Sphere001
+    100080: Sphere002
+    100082: Sphere003
+    100084: Text001
+    100086: Text004
+    100088: Text005
+    100090: Text007
+    100092: Text008
+    100094: Text009
+    100096: Text010
+    100098: Text011
+    100100: Text012
+    100102: Text013
+    100104: Text014
+    100106: Text015
+    100108: Text016
+    100110: Text017
+    100112: Torus Knot001
+    100114: Base
+    100116: Helix001
+    100118: Line001
+    100120: tronnsparent flipped
+    100122: tronsparent
+    100124: Arrows
+    100126: Floor
+    100128: Glowobject
+    100130: Sphere004
+    100132: Trail
+    100134: Trail Begin
+    100136: Glowobject001
+    100138: Trail Begin001
+    100140: Trail001
+    100142: Animated UVs
+    100144: Glow Plane
+    100146: Neon
+    100148: Reflection Rim
+    100150: Shadows Ligtmaps VC
+    100152: Trai Ref
+    100154: Trail Begin Ref
+    100156: Transparent Queue
+    100158: Tronsparent
+    100160: Animated UVs001
+    100162: Animated UVs002
+    100164: Plane021
+    100166: Plane022
+    100168: Plane023
+    100170: Plane024
+    100172: Plane025
+    100174: Plane026
+    100176: Plane027
+    100178: Shadows Ligtmaps VC001
+    100180: Shadows Ligtmaps VC002
+    100182: Text018
+    100184: Text020
+    100186: Text021
+    100188: Text022
+    100190: Text023
+    100192: Text024
+    100194: Text025
+    100196: Text026
+    100198: Text027
+    100200: Text028
+    100202: Text029
+    100204: Text030
+    100206: Plane028
+    100208: Teapot001
+    100210: Teapot002
+    100212: Teapot003
+    100214: Text031
+    100216: Text032
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: Box004
+    400008: Box005
+    400010: Box006
+    400012: Box007
+    400014: Box008
+    400016: Box009
+    400018: Box010
+    400020: Box011
+    400022: Box012
+    400024: Cylinder001
+    400026: floor
+    400028: floor001
+    400030: Glow
+    400032: Glow001
+    400034: //RootNode
+    400036: Object001
+    400038: Object002
+    400040: Object003
+    400042: Plane 1
+    400044: Plane 2
+    400046: Plane 4
+    400048: Plane 5
+    400050: Plane001
+    400052: Plane002
+    400054: Plane003
+    400056: Plane004
+    400058: Plane005
+    400060: Plane006
+    400062: Plane008
+    400064: Plane009
+    400066: Plane010
+    400068: Plane011
+    400070: Plane017
+    400072: Plane018
+    400074: Plane019
+    400076: Plane3
+    400078: Sphere001
+    400080: Sphere002
+    400082: Sphere003
+    400084: Text001
+    400086: Text004
+    400088: Text005
+    400090: Text007
+    400092: Text008
+    400094: Text009
+    400096: Text010
+    400098: Text011
+    400100: Text012
+    400102: Text013
+    400104: Text014
+    400106: Text015
+    400108: Text016
+    400110: Text017
+    400112: Torus Knot001
+    400114: Base
+    400116: Helix001
+    400118: Line001
+    400120: tronnsparent flipped
+    400122: tronsparent
+    400124: Arrows
+    400126: Floor
+    400128: Glowobject
+    400130: Sphere004
+    400132: Trail
+    400134: Trail Begin
+    400136: Glowobject001
+    400138: Trail Begin001
+    400140: Trail001
+    400142: Animated UVs
+    400144: Glow Plane
+    400146: Neon
+    400148: Reflection Rim
+    400150: Shadows Ligtmaps VC
+    400152: Trai Ref
+    400154: Trail Begin Ref
+    400156: Transparent Queue
+    400158: Tronsparent
+    400160: Animated UVs001
+    400162: Animated UVs002
+    400164: Plane021
+    400166: Plane022
+    400168: Plane023
+    400170: Plane024
+    400172: Plane025
+    400174: Plane026
+    400176: Plane027
+    400178: Shadows Ligtmaps VC001
+    400180: Shadows Ligtmaps VC002
+    400182: Text018
+    400184: Text020
+    400186: Text021
+    400188: Text022
+    400190: Text023
+    400192: Text024
+    400194: Text025
+    400196: Text026
+    400198: Text027
+    400200: Text028
+    400202: Text029
+    400204: Text030
+    400206: Plane028
+    400208: Teapot001
+    400210: Teapot002
+    400212: Teapot003
+    400214: Text031
+    400216: Text032
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: Box006
+    2300012: Box007
+    2300014: Box008
+    2300016: Box009
+    2300018: Box010
+    2300020: Box011
+    2300022: Box012
+    2300024: Cylinder001
+    2300026: floor
+    2300028: floor001
+    2300030: Glow
+    2300032: Glow001
+    2300034: Object001
+    2300036: Object002
+    2300038: Object003
+    2300040: Plane 1
+    2300042: Plane 2
+    2300044: Plane 4
+    2300046: Plane 5
+    2300048: Plane001
+    2300050: Plane002
+    2300052: Plane003
+    2300054: Plane004
+    2300056: Plane005
+    2300058: Plane006
+    2300060: Plane008
+    2300062: Plane009
+    2300064: Plane010
+    2300066: Plane011
+    2300068: Plane017
+    2300070: Plane018
+    2300072: Plane019
+    2300074: Plane3
+    2300076: Sphere001
+    2300078: Sphere002
+    2300080: Sphere003
+    2300082: Text001
+    2300084: Text004
+    2300086: Text005
+    2300088: Text007
+    2300090: Text008
+    2300092: Text009
+    2300094: Text010
+    2300096: Text011
+    2300098: Text012
+    2300100: Text013
+    2300102: Text014
+    2300104: Text015
+    2300106: Text016
+    2300108: Text017
+    2300110: Torus Knot001
+    2300112: Base
+    2300114: tronnsparent flipped
+    2300116: tronsparent
+    2300118: Arrows
+    2300120: Floor
+    2300122: Glowobject
+    2300124: Sphere004
+    2300126: Trail
+    2300128: Trail Begin
+    2300130: Glowobject001
+    2300132: Trail Begin001
+    2300134: Trail001
+    2300136: Glow Plane
+    2300138: Neon
+    2300140: Trai Ref
+    2300142: Trail Begin Ref
+    2300144: Plane021
+    2300146: Plane022
+    2300148: Plane023
+    2300150: Plane024
+    2300152: Plane025
+    2300154: Plane026
+    2300156: Plane027
+    2300158: Text018
+    2300160: Text020
+    2300162: Text021
+    2300164: Text022
+    2300166: Text023
+    2300168: Text024
+    2300170: Text025
+    2300172: Text026
+    2300174: Text027
+    2300176: Text028
+    2300178: Text029
+    2300180: Text030
+    2300182: Plane028
+    2300184: Teapot001
+    2300186: Teapot002
+    2300188: Teapot003
+    2300190: Text031
+    2300192: Text032
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: Box006
+    3300012: Box007
+    3300014: Box008
+    3300016: Box009
+    3300018: Box010
+    3300020: Box011
+    3300022: Box012
+    3300024: Cylinder001
+    3300026: floor
+    3300028: floor001
+    3300030: Glow
+    3300032: Glow001
+    3300034: Object001
+    3300036: Object002
+    3300038: Object003
+    3300040: Plane 1
+    3300042: Plane 2
+    3300044: Plane 4
+    3300046: Plane 5
+    3300048: Plane001
+    3300050: Plane002
+    3300052: Plane003
+    3300054: Plane004
+    3300056: Plane005
+    3300058: Plane006
+    3300060: Plane008
+    3300062: Plane009
+    3300064: Plane010
+    3300066: Plane011
+    3300068: Plane017
+    3300070: Plane018
+    3300072: Plane019
+    3300074: Plane3
+    3300076: Sphere001
+    3300078: Sphere002
+    3300080: Sphere003
+    3300082: Text001
+    3300084: Text004
+    3300086: Text005
+    3300088: Text007
+    3300090: Text008
+    3300092: Text009
+    3300094: Text010
+    3300096: Text011
+    3300098: Text012
+    3300100: Text013
+    3300102: Text014
+    3300104: Text015
+    3300106: Text016
+    3300108: Text017
+    3300110: Torus Knot001
+    3300112: Base
+    3300114: tronnsparent flipped
+    3300116: tronsparent
+    3300118: Arrows
+    3300120: Floor
+    3300122: Glowobject
+    3300124: Sphere004
+    3300126: Trail
+    3300128: Trail Begin
+    3300130: Glowobject001
+    3300132: Trail Begin001
+    3300134: Trail001
+    3300136: Glow Plane
+    3300138: Neon
+    3300140: Trai Ref
+    3300142: Trail Begin Ref
+    3300144: Plane021
+    3300146: Plane022
+    3300148: Plane023
+    3300150: Plane024
+    3300152: Plane025
+    3300154: Plane026
+    3300156: Plane027
+    3300158: Text018
+    3300160: Text020
+    3300162: Text021
+    3300164: Text022
+    3300166: Text023
+    3300168: Text024
+    3300170: Text025
+    3300172: Text026
+    3300174: Text027
+    3300176: Text028
+    3300178: Text029
+    3300180: Text030
+    3300182: Plane028
+    3300184: Teapot001
+    3300186: Teapot002
+    3300188: Teapot003
+    3300190: Text031
+    3300192: Text032
+    4300000: Box001
+    4300002: Text001
+    4300004: Text004
+    4300006: Text005
+    4300008: Box002
+    4300010: Text007
+    4300012: Text008
+    4300014: Box003
+    4300016: Text009
+    4300018: Box004
+    4300020: Text010
+    4300022: Text011
+    4300024: Box005
+    4300026: Text012
+    4300028: Text013
+    4300030: Sphere001
+    4300032: Sphere002
+    4300034: Box006
+    4300036: Plane001
+    4300038: Plane002
+    4300040: Box007
+    4300042: Box008
+    4300044: Plane003
+    4300046: Glow
+    4300048: Box009
+    4300050: Torus Knot001
+    4300052: Plane004
+    4300054: Plane005
+    4300056: Cylinder001
+    4300058: Plane006
+    4300060: Plane008
+    4300062: Plane009
+    4300064: Plane010
+    4300066: Plane011
+    4300068: floor
+    4300070: Object001
+    4300072: Plane 1
+    4300074: Plane 2
+    4300076: Plane3
+    4300078: Plane 4
+    4300080: Plane 5
+    4300082: Object002
+    4300084: Object003
+    4300086: floor001
+    4300088: Plane017
+    4300090: Plane018
+    4300092: Plane019
+    4300094: Box010
+    4300096: Text014
+    4300098: Text015
+    4300100: Box011
+    4300102: Text016
+    4300104: Glow001
+    4300106: Box012
+    4300108: Text017
+    4300110: Sphere003
+    4300112: Base
+    4300114: tronsparent
+    4300116: tronnsparent flipped
+    4300118: Floor
+    4300120: Glowobject
+    4300122: Trail
+    4300124: Arrows
+    4300126: Trail Begin
+    4300128: Sphere004
+    4300130: Trail001
+    4300132: Trail Begin001
+    4300134: Glowobject001
+    4300136: Trail Begin Ref
+    4300138: Trai Ref
+    4300140: Neon
+    4300142: Glow Plane
+    4300144: Text018
+    4300146: Plane021
+    4300148: Plane022
+    4300150: Plane023
+    4300152: Plane024
+    4300154: Plane025
+    4300156: Text020
+    4300158: Text021
+    4300160: Plane026
+    4300162: Plane027
+    4300164: Text022
+    4300166: Text023
+    4300168: Text024
+    4300170: Text025
+    4300172: Text026
+    4300174: Text027
+    4300176: Text028
+    4300178: Text029
+    4300180: Text030
+    4300182: Plane028
+    4300184: Teapot001
+    4300186: Teapot002
+    4300188: Teapot003
+    4300190: Text031
+    4300192: Text032
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

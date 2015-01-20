@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: e861848b07a1b4abc9cd5967fb348650
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint2
+    100004: joint3
+    100006: joint4
+    100008: joint5
+    100010: joint6
+    100012: joint7
+    100014: joint8
+    100016: joint9
+    100018: tree
+    100020: //RootNode
+    100022: entropy_DH_Trees:polySurface7
+    100024: polySurface1
+    100026: branches
+    100028: leaves
+    100030: leaves1
+    100032: leaves2
+    100034: Tree_02_Leaf_Branch
+    100036: Tree_02_Leaf_Branch1
+    100038: Tree_02_Leaf_Branch10
+    100040: Tree_02_Leaf_Branch11
+    100042: Tree_02_Leaf_Branch12
+    100044: Tree_02_Leaf_Branch13
+    100046: Tree_02_Leaf_Branch14
+    100048: Tree_02_Leaf_Branch15
+    100050: Tree_02_Leaf_Branch16
+    100052: Tree_02_Leaf_Branch17
+    100054: Tree_02_Leaf_Branch2
+    100056: Tree_02_Leaf_Branch3
+    100058: Tree_02_Leaf_Branch4
+    100060: Tree_02_Leaf_Branch5
+    100062: Tree_02_Leaf_Branch6
+    100064: Tree_02_Leaf_Branch7
+    100066: Tree_02_Leaf_Branch8
+    100068: Tree_02_Leaf_Branch9
+    100070: tree_trunk
+    400000: joint1
+    400002: joint2
+    400004: joint3
+    400006: joint4
+    400008: joint5
+    400010: joint6
+    400012: joint7
+    400014: joint8
+    400016: joint9
+    400018: tree
+    400020: //RootNode
+    400022: entropy_DH_Trees:polySurface7
+    400024: polySurface1
+    400026: branches
+    400028: leaves
+    400030: leaves1
+    400032: leaves2
+    400034: Tree_02_Leaf_Branch
+    400036: Tree_02_Leaf_Branch1
+    400038: Tree_02_Leaf_Branch10
+    400040: Tree_02_Leaf_Branch11
+    400042: Tree_02_Leaf_Branch12
+    400044: Tree_02_Leaf_Branch13
+    400046: Tree_02_Leaf_Branch14
+    400048: Tree_02_Leaf_Branch15
+    400050: Tree_02_Leaf_Branch16
+    400052: Tree_02_Leaf_Branch17
+    400054: Tree_02_Leaf_Branch2
+    400056: Tree_02_Leaf_Branch3
+    400058: Tree_02_Leaf_Branch4
+    400060: Tree_02_Leaf_Branch5
+    400062: Tree_02_Leaf_Branch6
+    400064: Tree_02_Leaf_Branch7
+    400066: Tree_02_Leaf_Branch8
+    400068: Tree_02_Leaf_Branch9
+    400070: tree_trunk
+    2300000: polySurface1
+    3300000: polySurface1
+    4300000: tree
+    4300002: polySurface1
+    4300004: tree_trunk
+    4300006: branches
+    4300008: leaves
+    4300010: Tree_02_Leaf_Branch
+    4300012: Tree_02_Leaf_Branch1
+    4300014: Tree_02_Leaf_Branch2
+    4300016: Tree_02_Leaf_Branch3
+    4300018: Tree_02_Leaf_Branch4
+    4300020: Tree_02_Leaf_Branch5
+    4300022: Tree_02_Leaf_Branch6
+    4300024: Tree_02_Leaf_Branch7
+    4300026: Tree_02_Leaf_Branch8
+    4300028: Tree_02_Leaf_Branch9
+    4300030: Tree_02_Leaf_Branch10
+    4300032: leaves1
+    4300034: Tree_02_Leaf_Branch11
+    4300036: Tree_02_Leaf_Branch12
+    4300038: Tree_02_Leaf_Branch13
+    4300040: Tree_02_Leaf_Branch14
+    4300042: Tree_02_Leaf_Branch15
+    4300044: leaves2
+    4300046: Tree_02_Leaf_Branch16
+    4300048: Tree_02_Leaf_Branch17
+    7400000: Grow
+    7400002: Shrink
+    7400004: Idle
+    7400006: GrownIdle
+    7400008: Pulse
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: tree
+    13700002: branches
+    13700004: leaves
+    13700006: leaves1
+    13700008: leaves2
+    13700010: Tree_02_Leaf_Branch
+    13700012: Tree_02_Leaf_Branch1
+    13700014: Tree_02_Leaf_Branch10
+    13700016: Tree_02_Leaf_Branch11
+    13700018: Tree_02_Leaf_Branch12
+    13700020: Tree_02_Leaf_Branch13
+    13700022: Tree_02_Leaf_Branch14
+    13700024: Tree_02_Leaf_Branch15
+    13700026: Tree_02_Leaf_Branch16
+    13700028: Tree_02_Leaf_Branch17
+    13700030: Tree_02_Leaf_Branch2
+    13700032: Tree_02_Leaf_Branch3
+    13700034: Tree_02_Leaf_Branch4
+    13700036: Tree_02_Leaf_Branch5
+    13700038: Tree_02_Leaf_Branch6
+    13700040: Tree_02_Leaf_Branch7
+    13700042: Tree_02_Leaf_Branch8
+    13700044: Tree_02_Leaf_Branch9
+    13700046: tree_trunk
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Grow
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: tree
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shrink
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: branches
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: leaves
+        weight: 1
+      - path: leaves1
+        weight: 1
+      - path: leaves2
+        weight: 1
+      - path: Tree_02_Leaf_Branch
+        weight: 1
+      - path: Tree_02_Leaf_Branch1
+        weight: 1
+      - path: Tree_02_Leaf_Branch2
+        weight: 1
+      - path: Tree_02_Leaf_Branch3
+        weight: 1
+      - path: Tree_02_Leaf_Branch4
+        weight: 1
+      - path: Tree_02_Leaf_Branch5
+        weight: 1
+      - path: Tree_02_Leaf_Branch6
+        weight: 1
+      - path: Tree_02_Leaf_Branch7
+        weight: 1
+      - path: Tree_02_Leaf_Branch8
+        weight: 1
+      - path: Tree_02_Leaf_Branch9
+        weight: 1
+      - path: Tree_02_Leaf_Branch10
+        weight: 1
+      - path: Tree_02_Leaf_Branch11
+        weight: 1
+      - path: Tree_02_Leaf_Branch12
+        weight: 1
+      - path: Tree_02_Leaf_Branch13
+        weight: 1
+      - path: Tree_02_Leaf_Branch14
+        weight: 1
+      - path: Tree_02_Leaf_Branch15
+        weight: 1
+      - path: Tree_02_Leaf_Branch16
+        weight: 1
+      - path: Tree_02_Leaf_Branch17
+        weight: 1
+      - path: tree_trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.10000002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: branches
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: leaves
+        weight: 1
+      - path: leaves1
+        weight: 1
+      - path: leaves2
+        weight: 1
+      - path: Tree_02_Leaf_Branch
+        weight: 1
+      - path: Tree_02_Leaf_Branch1
+        weight: 1
+      - path: Tree_02_Leaf_Branch2
+        weight: 1
+      - path: Tree_02_Leaf_Branch3
+        weight: 1
+      - path: Tree_02_Leaf_Branch4
+        weight: 1
+      - path: Tree_02_Leaf_Branch5
+        weight: 1
+      - path: Tree_02_Leaf_Branch6
+        weight: 1
+      - path: Tree_02_Leaf_Branch7
+        weight: 1
+      - path: Tree_02_Leaf_Branch8
+        weight: 1
+      - path: Tree_02_Leaf_Branch9
+        weight: 1
+      - path: Tree_02_Leaf_Branch10
+        weight: 1
+      - path: Tree_02_Leaf_Branch11
+        weight: 1
+      - path: Tree_02_Leaf_Branch12
+        weight: 1
+      - path: Tree_02_Leaf_Branch13
+        weight: 1
+      - path: Tree_02_Leaf_Branch14
+        weight: 1
+      - path: Tree_02_Leaf_Branch15
+        weight: 1
+      - path: Tree_02_Leaf_Branch16
+        weight: 1
+      - path: Tree_02_Leaf_Branch17
+        weight: 1
+      - path: tree_trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GrownIdle
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: branches
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: leaves
+        weight: 1
+      - path: leaves1
+        weight: 1
+      - path: leaves2
+        weight: 1
+      - path: Tree_02_Leaf_Branch
+        weight: 1
+      - path: Tree_02_Leaf_Branch1
+        weight: 1
+      - path: Tree_02_Leaf_Branch2
+        weight: 1
+      - path: Tree_02_Leaf_Branch3
+        weight: 1
+      - path: Tree_02_Leaf_Branch4
+        weight: 1
+      - path: Tree_02_Leaf_Branch5
+        weight: 1
+      - path: Tree_02_Leaf_Branch6
+        weight: 1
+      - path: Tree_02_Leaf_Branch7
+        weight: 1
+      - path: Tree_02_Leaf_Branch8
+        weight: 1
+      - path: Tree_02_Leaf_Branch9
+        weight: 1
+      - path: Tree_02_Leaf_Branch10
+        weight: 1
+      - path: Tree_02_Leaf_Branch11
+        weight: 1
+      - path: Tree_02_Leaf_Branch12
+        weight: 1
+      - path: Tree_02_Leaf_Branch13
+        weight: 1
+      - path: Tree_02_Leaf_Branch14
+        weight: 1
+      - path: Tree_02_Leaf_Branch15
+        weight: 1
+      - path: Tree_02_Leaf_Branch16
+        weight: 1
+      - path: Tree_02_Leaf_Branch17
+        weight: 1
+      - path: tree_trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pulse
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: branches
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint3
+        weight: 1
+      - path: joint1/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: leaves
+        weight: 1
+      - path: leaves1
+        weight: 1
+      - path: leaves2
+        weight: 1
+      - path: Tree_02_Leaf_Branch
+        weight: 1
+      - path: Tree_02_Leaf_Branch1
+        weight: 1
+      - path: Tree_02_Leaf_Branch2
+        weight: 1
+      - path: Tree_02_Leaf_Branch3
+        weight: 1
+      - path: Tree_02_Leaf_Branch4
+        weight: 1
+      - path: Tree_02_Leaf_Branch5
+        weight: 1
+      - path: Tree_02_Leaf_Branch6
+        weight: 1
+      - path: Tree_02_Leaf_Branch7
+        weight: 1
+      - path: Tree_02_Leaf_Branch8
+        weight: 1
+      - path: Tree_02_Leaf_Branch9
+        weight: 1
+      - path: Tree_02_Leaf_Branch10
+        weight: 1
+      - path: Tree_02_Leaf_Branch11
+        weight: 1
+      - path: Tree_02_Leaf_Branch12
+        weight: 1
+      - path: Tree_02_Leaf_Branch13
+        weight: 1
+      - path: Tree_02_Leaf_Branch14
+        weight: 1
+      - path: Tree_02_Leaf_Branch15
+        weight: 1
+      - path: Tree_02_Leaf_Branch16
+        weight: 1
+      - path: Tree_02_Leaf_Branch17
+        weight: 1
+      - path: tree_trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
