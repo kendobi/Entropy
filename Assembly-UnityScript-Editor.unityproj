@@ -92,6 +92,7 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color OutAdv .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldWeapon.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\DiffuseVertexColor.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Diffuse LightmapUnity ShadowUNOShader .shader" />
@@ -217,6 +218,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryCamera.txt" />
      <None Include="Assets\ParticleScaler\How_to_use.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Crouch.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient AmbientLight .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechWeapon.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
@@ -281,6 +283,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotChestWeapon.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff Color Glow Reflection Rim .shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient Light0 .shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Helpers_Shadows.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
@@ -349,6 +352,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow Rim ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Default.txt" />
@@ -374,6 +378,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff VertexCol Diffuse .shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoomInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
@@ -387,6 +392,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient Light0 AmbientLight .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretShooter.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileInput.txt" />
