@@ -88,6 +88,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
      <None Include="Assets\Photon Unity Networking\PlayMaker\ReleaseNotes.txt" />
@@ -118,6 +119,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Diffuse LightmapUnity ShadowUNOShader .shader" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\StompingCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretInput.txt" />
@@ -136,6 +138,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullLeft.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Light0 .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
@@ -148,6 +151,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse AmbientLight .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpLeft.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
@@ -159,6 +163,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDown.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Input.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
@@ -230,8 +235,10 @@
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexLit.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Background Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechController.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Rim ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkCamera.txt" />
@@ -275,6 +282,7 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff VertexCol Color Diffuse .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
@@ -359,6 +367,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Glow Rim ShadowAmbient .shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff VertexCol Glow .shader" />
