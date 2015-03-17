@@ -67,9 +67,9 @@ class DepthOfFieldScatterEditor extends Editor
 
       EditorGUILayout.PropertyField (blurType, new GUIContent("Defocus Type"));      
 
-      if (!(target as DepthOfFieldScatter).Dx11Support() && blurType.enumValueIndex>0) {
-        EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);      
-      }      
+//      if (!(target as DepthOfFieldScatter).Dx11Support() && blurType.enumValueIndex>0) {
+ //       EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);      
+ //     }      
 
       if(blurType.enumValueIndex<1)
         EditorGUILayout.PropertyField (blurSampleCount, new GUIContent(" Sample Count"));

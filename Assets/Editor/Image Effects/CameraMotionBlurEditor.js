@@ -55,9 +55,9 @@ class CameraMotionBlurEditor extends Editor
     EditorGUILayout.LabelField("Simulates camera based motion blur", EditorStyles.miniLabel);
 
     EditorGUILayout.PropertyField (filterType, new GUIContent("Technique"));  	
-    if (filterType.enumValueIndex == 3 && !(target as CameraMotionBlur).Dx11Support()) {
-      EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);      
-    }          
+//    if (filterType.enumValueIndex == 3 && !(target as CameraMotionBlur).Dx11Support()) {
+  //    EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);      
+   // }          
     EditorGUILayout.PropertyField (velocityScale, new GUIContent(" Velocity Scale"));   
     if(filterType.enumValueIndex >= 2) {
       EditorGUILayout.LabelField(" Tile size used during reconstruction filter:", EditorStyles.miniLabel);      

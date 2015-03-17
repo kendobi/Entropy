@@ -35,7 +35,7 @@ class TonemappingEditor extends Editor
     function OnInspectorGUI () {        
     	serObj.Update ();
     	
-		GUILayout.Label("Mapping HDR to LDR ranges since 1982", EditorStyles.miniLabel);
+		GUILayout.Label("Mapping HDR to LDR ranges since 1982", EditorStyles.miniBoldLabel);
 		
 		var cam : Camera = (target as Tonemapping).camera;
 		if(cam != null) {

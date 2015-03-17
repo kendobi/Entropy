@@ -3,7 +3,7 @@
 
 @script ExecuteInEditMode
 @script RequireComponent (Camera)
-@script AddComponentMenu ("Image Effects/Rendering/Global Fog")
+@script AddComponentMenu ("Image Effects/Global Fog")
 
 class GlobalFog extends PostEffectsBase {
 	
@@ -31,6 +31,11 @@ class GlobalFog extends PostEffectsBase {
 	public var fogShader : Shader;
 	private var fogMaterial : Material = null;	
 	
+	function OnDisable()
+	{
+	    if (fogMaterial)
+	        DestroyImmediate(fogMaterial);
+	}
 	function CheckResources () : boolean {	
 		CheckSupport (true);
 	

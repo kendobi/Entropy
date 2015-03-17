@@ -20,8 +20,6 @@ class ColorCorrectionCurvesEditor extends Editor {
 	
 	var zCurveChannel : SerializedProperty;
 	
-	var saturation : SerializedProperty;
-
 	var selectiveCc : SerializedProperty;
 	var selectiveFromColor : SerializedProperty;
 	var selectiveToColor : SerializedProperty;
@@ -32,8 +30,6 @@ class ColorCorrectionCurvesEditor extends Editor {
 		serObj = new SerializedObject (target);
 		
 		mode = serObj.FindProperty ("mode");
-
-		saturation = serObj.FindProperty ("saturation");
 		
 		redChannel = serObj.FindProperty ("redChannel");
 		greenChannel = serObj.FindProperty ("greenChannel");
@@ -93,18 +89,17 @@ class ColorCorrectionCurvesEditor extends Editor {
     function OnInspectorGUI () {        
 		serObj.Update ();  	
     	
-		GUILayout.Label ("Use curves to tweak RGB channel colors", EditorStyles.miniBoldLabel);    	
-
-       	saturation.floatValue = EditorGUILayout.Slider( "Saturation", saturation.floatValue, 0.0f, 5.0f);
+		GUILayout.Label ("Curves to tweak colors. Advanced separates fore- and background.", EditorStyles.miniBoldLabel);    	
     	    	
     	EditorGUILayout.PropertyField (mode, GUIContent ("Mode"));
-       	EditorGUILayout.Separator ();				
+    	
+		GUILayout.Label ("Curves", EditorStyles.boldLabel);		
 
 		BeginCurves ();
     	    	    	
-		CurveGui (" Red", redChannel, Color.red);
-		CurveGui (" Green", greenChannel, Color.green);
-		CurveGui (" Blue", blueChannel, Color.blue);
+		CurveGui ("Red", redChannel, Color.red);
+		CurveGui ("Blue", blueChannel, Color.blue);
+		CurveGui ("Green", greenChannel, Color.green);
 		
         EditorGUILayout.Separator ();
         
@@ -114,20 +109,22 @@ class ColorCorrectionCurvesEditor extends Editor {
         	useDepthCorrection.boolValue = false;
         
         if (useDepthCorrection.boolValue) {
-			CurveGui (" Red (depth)", depthRedChannel, Color.red);
-			CurveGui (" Green (depth)", depthGreenChannel, Color.green);
-			CurveGui (" Blue (depth)", depthBlueChannel, Color.blue);
+			CurveGui ("Red (depth)", depthRedChannel, Color.red);
+			CurveGui ("Blue (depth)", depthBlueChannel, Color.blue);
+			CurveGui ("Green (depth)", depthGreenChannel, Color.green);
         	EditorGUILayout.Separator ();						  		        
-			CurveGui (" Blend Curve", zCurveChannel, Color.grey);  	
+			CurveGui ("Blend Curve", zCurveChannel, Color.grey);  	
         }
 		        		
-		EditorGUILayout.Separator ();		
-		EditorGUILayout.PropertyField (selectiveCc, GUIContent ("Selective"));	
-		if (selectiveCc.boolValue) {	
-			EditorGUILayout.PropertyField (selectiveFromColor, GUIContent (" Key"));
-			EditorGUILayout.PropertyField (selectiveToColor, GUIContent (" Target"));
+		if (mode.intValue > 0) {
+			EditorGUILayout.Separator ();		
+			GUILayout.Label("Selective Color Correction", EditorStyles.boldLabel);		
+			EditorGUILayout.PropertyField (selectiveCc, GUIContent ("Enable"));	
+			if (selectiveCc.boolValue) {	
+				EditorGUILayout.PropertyField (selectiveFromColor, GUIContent ("Key"));
+				EditorGUILayout.PropertyField (selectiveToColor, GUIContent ("Target"));
+			}
 		}
-		
         
 		ApplyCurves ();
 

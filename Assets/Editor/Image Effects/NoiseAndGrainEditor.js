@@ -52,9 +52,9 @@ class NoiseAndGrainEditor extends Editor
 
 		EditorGUILayout.PropertyField(dx11Grain, new GUIContent("DirectX 11 Grain"));
 
-		if(dx11Grain.boolValue && !(target as NoiseAndGrain).Dx11Support()) {
-			EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);			
-		}
+//		if(dx11Grain.boolValue && !(target as NoiseAndGrain).Dx11Support()) {
+//			EditorGUILayout.HelpBox("DX11 mode not supported (need shader model 5)", MessageType.Info);			
+//		}
 
 		EditorGUILayout.PropertyField(monochrome, new GUIContent("Monochrome"));
 
