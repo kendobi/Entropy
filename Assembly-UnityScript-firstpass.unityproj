@@ -269,6 +269,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff CullOff ZwriteOff Diffuse .shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Zoom.txt" />
@@ -293,12 +294,14 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CrouchInput.txt" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff Diffuse .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowUNOShader .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensInput.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff Diffuse Glow .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse ShadowAmbient .shader" />
@@ -357,6 +360,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse ShadowAmbient .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Run.txt" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped.shader" />
@@ -376,6 +380,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Crouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
@@ -420,6 +425,7 @@
      <None Include="Assets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader VertexCol Color Diffuse LightmapUnity .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\UnlitNoFog.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Reflection Rim .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Decal ShadowAmbient .shader" />
@@ -456,6 +462,7 @@
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperShooter.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Decal Glow .shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit_TransparentNoZ.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\SimpleEmissive.shader" />

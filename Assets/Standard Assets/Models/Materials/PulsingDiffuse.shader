@@ -49,8 +49,8 @@ Shader "Shader Forge/PulsingDiffuse" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
-                float4 node_4864 = _Time + _TimeEditor;
-                v.vertex.xyz += (pow((abs((frac((o.uv0+node_4864.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
+                float4 node_479 = _Time + _TimeEditor;
+                v.vertex.xyz += (pow((abs((frac((o.uv0+node_479.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
                 o.posWorld = mul(_Object2World, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 return o;
@@ -110,8 +110,8 @@ Shader "Shader Forge/PulsingDiffuse" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
-                float4 node_3142 = _Time + _TimeEditor;
-                v.vertex.xyz += (pow((abs((frac((o.uv0+node_3142.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
+                float4 node_5312 = _Time + _TimeEditor;
+                v.vertex.xyz += (pow((abs((frac((o.uv0+node_5312.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
                 o.posWorld = mul(_Object2World, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 return o;
@@ -129,8 +129,7 @@ Shader "Shader Forge/PulsingDiffuse" {
 ////// Lighting:
 ////// Emissive:
                 float4 _Diffuse_var = tex2D(_Diffuse,TRANSFORM_TEX(i.uv0, _Diffuse));
-                float3 node_4255 = (_color2.rgb*_Diffuse_var.rgb);
-                float3 emissive = node_4255;
+                float3 emissive = (_color2.rgb*_Diffuse_var.rgb);
                 float3 finalColor = emissive;
                 return fixed4(finalColor,1);
             }
@@ -172,8 +171,8 @@ Shader "Shader Forge/PulsingDiffuse" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
-                float4 node_1347 = _Time + _TimeEditor;
-                v.vertex.xyz += (pow((abs((frac((o.uv0+node_1347.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
+                float4 node_1954 = _Time + _TimeEditor;
+                v.vertex.xyz += (pow((abs((frac((o.uv0+node_1954.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
                 o.posWorld = mul(_Object2World, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 return o;
@@ -191,8 +190,7 @@ Shader "Shader Forge/PulsingDiffuse" {
 ////// Lighting:
 ////// Emissive:
                 float4 _Diffuse_var = tex2D(_Diffuse,TRANSFORM_TEX(i.uv0, _Diffuse));
-                float3 node_4255 = (_color2.rgb*_Diffuse_var.rgb);
-                float3 emissive = node_4255;
+                float3 emissive = (_color2.rgb*_Diffuse_var.rgb);
                 float3 finalColor = emissive;
                 return fixed4(finalColor,1);
             }
@@ -234,8 +232,8 @@ Shader "Shader Forge/PulsingDiffuse" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
-                float4 node_2993 = _Time + _TimeEditor;
-                v.vertex.xyz += (pow((abs((frac((o.uv0+node_2993.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
+                float4 node_9364 = _Time + _TimeEditor;
+                v.vertex.xyz += (pow((abs((frac((o.uv0+node_9364.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 TRANSFER_SHADOW_COLLECTOR(o)
                 return o;
@@ -283,8 +281,8 @@ Shader "Shader Forge/PulsingDiffuse" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
-                float4 node_9872 = _Time + _TimeEditor;
-                v.vertex.xyz += (pow((abs((frac((o.uv0+node_9872.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
+                float4 node_4801 = _Time + _TimeEditor;
+                v.vertex.xyz += (pow((abs((frac((o.uv0+node_4801.g*float2(0,-0.35)).g)-0.5))*2.0),_BulgeShape)*_BulgeScale*v.normal);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 TRANSFER_SHADOW_CASTER(o)
                 return o;
