@@ -46,6 +46,28 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DarkTonic\Editor\UndoHelper.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\AudioEventInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\ButtonClickerInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\DTGUIHelper.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\DynamicGroupVariationInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\DynamicSoundGroupCreatorInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\DynamicSoundGroupInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\FootstepsSoundsInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioClipManager.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioGroupInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioHierIcon.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioInspectorResources.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioManager.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\MasterAudioSoundUpgrader.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\PersistChanges\MAComponentPatch.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\PersistChanges\MAGOSetting.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\PersistChanges\MAObjectContext.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\PlaylistControllerInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\SoundGroupOrganizerInspector.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\SoundGroupPropertyDrawer.cs" />
+     <Compile Include="Assets\DarkTonic\MasterAudio\Editor\SoundGroupVariationInspector.cs" />
      <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\AccountService.cs" />
      <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonConverter.cs" />
      <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditor.cs" />
@@ -115,6 +137,7 @@
      <Compile Include="Assets\UNOShader\Bin\Scripts\Editor\UNOShaderHelper_Editor.cs" />
      <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoFunctionsDX11.cginc" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Diffuse ShadowAmbient .shader" />
@@ -122,12 +145,15 @@
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlphaOverlay.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
      <None Include="Assets\Photon Unity Networking\PlayMaker\ReleaseNotes.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\TERRAIN\Shaders\suimono2_demo_fauna_double.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlpha_4.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraOutOfControl.txt" />
@@ -139,6 +165,7 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color Glow .shader" />
      <None Include="Assets\Standard Assets\Models\Materials\textureFade.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingRight.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Reflect-BumpSpec.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernInput.txt" />
@@ -149,6 +176,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\DiffuseVertexColor.shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\TRADEMARKS.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Diffuse LightmapUnity ShadowUNOShader .shader" />
      <None Include="Assets\PlayMaker\Readme.txt" />
@@ -161,8 +189,11 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\FONTLOG.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_pro_dx11.shader" />
      <None Include="Assets\FX Mega Pack 2\FX Mega Pack 2 - Readme.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\TERRAIN\Shaders\suimono2_demo_fauna_single.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Glow .shader" />
@@ -174,6 +205,7 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Light0 .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_splash.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
@@ -181,6 +213,7 @@
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Helpers_Outlines.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooter.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileLightningCloudShader.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Reflection ShadowUNOShader .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
@@ -189,10 +222,12 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpLeft.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_reflect.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse Decal Rim ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESET_(Default) Ocean Presets.txt" />
      <None Include="Assets\Standard Assets\WaveFoliage.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow Reflection Rim LightmapTexture ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
@@ -200,9 +235,13 @@
      <None Include="Assets\ShaderForge\Example Assets\Shaders\LightCone.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDown.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractPlane.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Rim .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_basic_dx11.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Input.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\README.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
@@ -210,6 +249,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Default.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Camera.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\CONTRIBUTING.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Zoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse Decal ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernController.txt" />
@@ -218,10 +258,14 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_waterscale_basic.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit_Transparent.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_basic.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_android.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refraction_dx11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceInput.txt" />
@@ -246,9 +290,11 @@
      <None Include="Assets\FX Mega Pack 2\Scripts\Simple Particle Scaler\Simple Particle Scaler - Readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DefaultWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileCloudLightingModel.cginc" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpRight.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_Demo_HairSpec.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
@@ -257,6 +303,7 @@
      <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\InputZoom.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_ios.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkWeapon.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -264,16 +311,20 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\InputDead.txt" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\LightningCloudShader.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color Diffuse Decal ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolOutOfControl.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractPlane_basicU5.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Zoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\UNOShader_Unlit.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooter.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader CullOff VertexCol Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudLightingModel.cginc" />
      <None Include="Assets\VolumetricClouds\Scripts\Clouds.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color OutBasic .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_Demo_Skin.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Default.txt" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexLit.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
@@ -300,14 +351,17 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperInput.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE-FAQ.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff CullOff ZwriteOff Diffuse .shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingInput.txt" />
+     <None Include="Assets\DarkTonic\MasterAudio\ReleaseNotes.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Zoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow LightmapUnity .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color Decal Reflection Rim ShadowAmbient .shader" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color OutAdv .shader" />
@@ -316,6 +370,8 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_android.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractPlaneU5.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingDownLeft.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\StompingInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
@@ -332,20 +388,26 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensInput.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Diffuse Rim .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_Suimono2.0_ReadMe.txt" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlpha.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff Diffuse Glow .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Diffuse ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff VertexCol Color Diffuse .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refraction_mobile.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Zoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader VertexCol Color Diffuse ShadowUNOShader .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingUp.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_ios.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretWeapon.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlphaOverlaySurf.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeapon.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
@@ -368,15 +430,19 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient Light0 .shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Helpers_Shadows.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_EXTRAS\BetterSkybox\BetterSkybox_readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
      <None Include="Assets\Fantasy Skybox FREE\Readme\Readme.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_pro_dx11.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyInput.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_depthmask.shader" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\FX Mega Pack 2\Shaders\Mobile Vertex Color Cull Off.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_pro.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Zoom.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
@@ -389,11 +455,13 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeInput.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractPlaneU5_dx11.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse ShadowAmbient .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESET_Custom Presets.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Run.txt" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
@@ -401,24 +469,33 @@
      <None Include="Assets\Standard Assets\Models\Materials\unlitCutoutWithShadows.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse Decal Glow ShadowAmbient .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse ShadowAmbient Light0 .shader" />
+     <None Include="Assets\Plugins\Cloud System\Release Notes.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_pro.shader" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\SoftCloudShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_waterscale_pro.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeapon.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse ShadowAmbient Light0 .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkInput.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_particleAlphaDouble.shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Glow .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoFunctions.cginc" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Crouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader VertexCol Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechShooter.txt" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse LightmapUnity ShadowUNOShader .shader" />
@@ -432,6 +509,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent ZwriteOff VertexCol Glow .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_ReflectBumpSpecDouble.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Decal ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
@@ -440,6 +518,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_basic.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
@@ -460,6 +539,7 @@
      <None Include="Assets\Standard Assets\UnlitNoFog.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Reflection Rim .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\copyright.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Decal ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Decal Reflection ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Color Reflection Rim .shader" />
@@ -478,15 +558,22 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityInput.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunOutOfControl.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractPlane_basic.shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refraction.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperCamera.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Crouch.txt" />
+     <None Include="Assets\Plugins\Cloud System\Readme.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Reflection Rim ShadowUNOShader .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Default.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_waterscale_pro_dx11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\RESOURCES\SUIMONO_PRESET_(Default) Calm Water Presets.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_refractFX.shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse ShadowAmbient Light0 AmbientLight .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretShooter.txt" />
@@ -497,12 +584,15 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit_TransparentNoZ.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\Plugins\Cloud System\CloudSystem.Runtime.xml" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\SimpleEmissive.shader" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeCamera.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\Sounds\Source.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunOutOfControl.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotWristWeapon.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_under_basic_dx11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautWeapon.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverOutOfControl.txt" />
@@ -510,8 +600,10 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownRight.txt" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_EXTRAS\BetterSkybox\Resources\Shaders\BetterSkybox_spheremap.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Decal ShadowAmbient .shader" />
+     <None Include="Assets\SUIMONO - WATER SYSTEM 2\_EXTRAS\BetterSkybox\Resources\Shaders\BetterSkybox_alphahorizon.shader" />
      <None Include="Assets\UFPS\Base\Content\Art\Body\Materials\InvisibleShadowCaster.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
@@ -565,6 +657,12 @@
  <Reference Include="PlayMakerEditor.zh-TW.resources">
  <HintPath>/Users/kennykong/Documents/Entropy/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
  </Reference>
+ <Reference Include="CloudSystem.Runtime">
+ <HintPath>/Users/kennykong/Documents/Entropy/Assets/Plugins/Cloud System/CloudSystem.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="CloudSystem.Editor">
+ <HintPath>/Users/kennykong/Documents/Entropy/Assets/Plugins/Editor/CloudSystem.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="ShaderForge">
  <HintPath>/Users/kennykong/Documents/Entropy/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
  </Reference>
@@ -580,6 +678,8 @@
       <Project>{F910F529-CEBB-B3AC-B6A3-A50AF88FD975}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
       <Project>{7EB1FA41-898C-E1C8-BB48-D41B45E434EB}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{7813AF35-D9E1-2096-9FBD-BDB6CAB236F8}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
