@@ -377,6 +377,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Helpers_Shadows_Transparent.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff CullOff Diffuse .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Glow .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullDown.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
@@ -583,6 +584,7 @@
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Diffuse Decal Glow .shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\UNOShader\Bin\Shaders\UNOShader_Fallback_VertexUnlit_TransparentNoZ.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff CullOff ZwriteOff Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
      <None Include="Assets\Plugins\Cloud System\CloudSystem.Runtime.xml" />
      <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\SimpleEmissive.shader" />
