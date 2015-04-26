@@ -158,6 +158,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Diffuse AmbientLight .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpLeft.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse Glow .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_effect_reflect.shader" />
@@ -219,6 +220,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader VertexCol LightmapUnity ShadowAmbient .shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent CullOff Diffuse .shader" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\MaterialPlatform.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader AlphaCutout Color Diffuse Rim ShadowAmbient .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
@@ -233,6 +235,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponPullUpRight.txt" />
      <None Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\OBJECTS\Shaders\Suimono2_Demo_HairSpec.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff Color .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
@@ -268,6 +271,7 @@
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Background Diffuse .shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader FogOff Color Rim ShadowAmbient .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeaponSwingLeft.txt" />
      <None Include="Assets\ShaderForge\Example Assets\Shaders\Cubemaps.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechController.txt" />
@@ -304,6 +308,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
      <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent Color OutAdv .shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse .shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
@@ -372,6 +377,7 @@
      <None Include="Assets\SUIMONO - WATER SYSTEM 2\_EXTRAS\BetterSkybox\BetterSkybox_readme.txt" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
      <None Include="Assets\Fantasy Skybox FREE\Readme\Readme.txt" />
+     <None Include="Assets\UNOShader\UNLIT\Shaders\Library\UNOShader Transparent FogOff Diffuse Rim .shader" />
      <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\Suimono2_water_pro_dx11.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
